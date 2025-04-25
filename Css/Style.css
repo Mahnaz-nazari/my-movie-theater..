@@ -1,0 +1,42 @@
+body {
+    background-color: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.theater {
+    border: 5px solid red;
+    padding: 20px;
+    background: 0 0 20px red;
+}
+video {
+    width: 80%;
+    border: 3px solid purple;
+}
+.button {
+    margin-top: 20px;
+}
+button {
+background-color: #222;
+color: white;
+border: 2px solid purple;
+padding: 10px 20px;
+margin: 10px;
+cursor: pointer;
+font-size: 16px;
+border-radius: 10 px;
+transition: all 0.3s ease;
+}
+
+button :hover {
+    backgroung-color: purple;
+    color: black;
+}
+.rate-btn {
+    border-color: purple;
+}
+.watch-btn {
+    border-color: purple;
+}
